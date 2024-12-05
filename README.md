@@ -101,3 +101,9 @@ This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 I
 Created by Lady Stuart.
 
 You may use, share, and modify the code under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+## Setup
+
+Links to YouTube video on usage and exe installation file
+- [Quick Tour of Christ0$](https://www.youtube.com/watch?v=y4QgQ3A3YJw&feature=youtu.be)
+- [Exe download](https://drive.google.com/file/d/1LIzI6BWwyMr0ww3PAuItPuYKV_JlQsK3/view)
