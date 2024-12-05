@@ -1,27 +1,35 @@
-# Виртуальное окружение
+# Virtual environment
 .venv/
 
-# Конфигурации IDE
+# IDE configurations
 .idea/
 
-# Кэшированные файлы
-__pycache__/
+# Cached files
+__pycache__/ 
 
-# Учебные файлы
+# Tutorial files
 Ch8/
 
-# Скомпилированные файлы Python
+# Compiled Python files
 *.pyc
 *.pyo
 *.pyd
 
-# Логи
+# Logs
 *.log
 
-# Другие временные файлы
+# Other temporary files
 workspace.xml
 
-#Тестовые файлы
+# Test files
 src/test.py
 
-Christ0$ Setup.iss
+# PyInstaller build files
+build/
+dist/
+
+# PyInstaller configuration file
+main.spec
+
+# Installer file
+Christ0$_Setup_PV1
