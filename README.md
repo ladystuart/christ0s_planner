@@ -18,8 +18,6 @@ Christ0$ is a planner program.
 │   ├── main
 │   ├── screenshots
 │   ├── useful_links
-│   ├── blog
-│   │   └── ideas_and_plans 
 │   ├── lists_for_life
 │   │   ├── courses
 │   │   ├── goals
