@@ -49,7 +49,7 @@ Welcome window:
 ![Welcome window](assets/screenshots/main_window.png)
 *Image 1. Welcome window*
 
-Use buttons on left tabs to navigate through the program.
+Use buttons on left tab to navigate through the program.
 
 Main tabs:
 
