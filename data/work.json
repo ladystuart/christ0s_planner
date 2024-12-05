@@ -1,0 +1,16 @@
+{
+    "buttons": [
+        "Work 1",
+        "Work 2"
+    ],
+    "Work 1": {
+        "notes": [
+            "new task"
+        ]
+    },
+    "Work 2": {
+        "notes": [
+            "https://ya.ru\n\nEntry"
+        ]
+    }
+}

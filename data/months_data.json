@@ -1,0 +1,75 @@
+{
+    "months": {
+        "January": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/january_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "./assets/yearly_plans/year/january_icon.png"
+        },
+        "February": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/february_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "././assets/yearly_plans/year/february_icon.png"
+        },
+        "March": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/march_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "././assets/yearly_plans/year/march_icon.png"
+        },
+        "April": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/april_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "./assets/yearly_plans/year/april_icon.png"
+        },
+        "May": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/may_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "./assets/yearly_plans/year/may_icon.png"
+        },
+        "June": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/june_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "./assets/yearly_plans/year/june_icon.png"
+        },
+        "July": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/july_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "./assets/yearly_plans/year/july_icon.png"
+        },
+        "August": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/august_banner.png",
+            "reading_link": "https://google.com"
+        },
+        "September": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/september_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "./assets/yearly_plans/year/september_icon.png"
+        },
+        "October": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/october_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "./assets/yearly_plans/year/october_icon.png"
+        },
+        "November": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/november_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "./assets/yearly_plans/year/november_icon.png"
+        },
+        "December": {
+            "icon_path": "./assets/yearly_plans/year/not_started_icon.png",
+            "banner": "./assets/yearly_plans/year/december_banner.png",
+            "reading_link": "https://google.com",
+            "month_icon_path": "./assets/yearly_plans/year/december_icon.png"
+        }
+    }
+}

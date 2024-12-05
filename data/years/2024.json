@@ -1,0 +1,207 @@
+{
+    "calendar": {},
+    "yearly_plans": [
+        {
+            "task": "Buy shoes",
+            "done": false
+        }
+    ],
+    "habit_tracker": {
+        "Week starting 2024-12-23": {
+            "Monday": [
+                {
+                    "task": "Reading",
+                    "completed": false
+                },
+                {
+                    "task": "Dreams",
+                    "completed": false
+                },
+                {
+                    "task": "Meditation",
+                    "completed": false
+                }
+            ],
+            "Tuesday": [
+                {
+                    "task": "Reading",
+                    "completed": false
+                },
+                {
+                    "task": "Sports",
+                    "completed": false
+                },
+                {
+                    "task": "Dreams",
+                    "completed": false
+                },
+                {
+                    "task": "Meditation",
+                    "completed": false
+                }
+            ],
+            "Wednesday": [
+                {
+                    "task": "Reading",
+                    "completed": false
+                },
+                {
+                    "task": "Dreams",
+                    "completed": false
+                },
+                {
+                    "task": "Meditation",
+                    "completed": false
+                }
+            ],
+            "Thursday": [
+                {
+                    "task": "Reading",
+                    "completed": false
+                },
+                {
+                    "task": "Sports",
+                    "completed": false
+                },
+                {
+                    "task": "Dreams",
+                    "completed": false
+                },
+                {
+                    "task": "Meditate",
+                    "completed": false
+                }
+            ],
+            "Friday": [
+                {
+                    "task": "Reading",
+                    "completed": false
+                },
+                {
+                    "task": "Dreams",
+                    "completed": false
+                },
+                {
+                    "task": "Meditation",
+                    "completed": false
+                }
+            ],
+            "Saturday": [
+                {
+                    "task": "Dreams",
+                    "completed": false
+                },
+                {
+                    "task": "Meditation",
+                    "completed": false
+                },
+                {
+                    "task": "Sports",
+                    "completed": false
+                }
+            ],
+            "Sunday": [
+                {
+                    "task": "Rest :3",
+                    "completed": false
+                }
+            ]
+        }
+    },
+    "gratitude_diary": {
+        "December": {
+            "2": "entry"
+        }
+    },
+    "best_in_months": {},
+    "months": {
+        "January": {
+            "plans": [
+                {
+                    "task": "new goal",
+                    "done": false
+                }
+            ],
+            "diary": {
+                "01.01.24": [
+                    {
+                        "task": "new task",
+                        "done": false
+                    }
+                ],
+                "02.01.24": [],
+                "03.01.24": [],
+                "06.01.24": [],
+                "04.01.24": [],
+                "31.01.24": []
+            },
+            "colour": {
+                "01.01.24": "#FFCCCC"
+            },
+            "popup": {
+                "01.01.24": "new tip"
+            }
+        },
+        "February": {
+            "plans": [],
+            "diary": {
+                "07.02.24": []
+            },
+            "colour": {},
+            "popup": {}
+        },
+        "March": {
+            "plans": [],
+            "diary": {}
+        },
+        "April": {
+            "plans": [],
+            "diary": {}
+        },
+        "May": {
+            "plans": [],
+            "diary": {}
+        },
+        "June": {
+            "plans": [],
+            "diary": {}
+        },
+        "July": {
+            "plans": [],
+            "diary": {}
+        },
+        "August": {
+            "plans": [],
+            "diary": {}
+        },
+        "September": {
+            "plans": [],
+            "diary": {}
+        },
+        "October": {
+            "plans": [],
+            "diary": {}
+        },
+        "November": {
+            "plans": [],
+            "diary": {}
+        },
+        "December": {
+            "plans": [],
+            "diary": {}
+        }
+    },
+    "review": {
+        "1. How would you describe this year with a single word?": "",
+        "2. What is your biggest challenge this year?": "",
+        "3. One thing you are most proud of this year:": "",
+        "4. How did you take care of yourself this year?": "",
+        "5. How have you changed over the year": "",
+        "6. New things you learned:": "",
+        "7. What made this year special?": "",
+        "8. What are you most grateful for?": "",
+        "9. Top 3 priorities for the next year:": "",
+        "10. Did you do your best?": ""
+    },
+    "week_starting": "Week starting 2024-12-23"
+}

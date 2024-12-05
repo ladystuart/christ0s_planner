@@ -1,0 +1,43 @@
+{
+    "books": [
+        {
+            "title": "How to Play the Chess Openings",
+            "authors": [
+                "Eugène Znosko-Borovsky"
+            ],
+            "language": "English",
+            "status": "Not started",
+            "link": "https://www.goodreads.com/book/show/1192214.How_to_Play_the_Chess_Openings?ref=nav_sb_ss_1_21",
+            "series": "Chess",
+            "banner_path": "./assets/lists_for_life/reading/banners/chess.png",
+            "icon_path": "./assets/lists_for_life/reading/icons/chess_icon.png",
+            "cover_path": "./assets/lists_for_life/reading/covers/Eugene_Znosko-Borovsky_-_How_to_play_the_chess_openings.jpg"
+        },
+        {
+            "title": "A Little Life",
+            "authors": [
+                "Hanya Yanagihara"
+            ],
+            "language": "English",
+            "status": "In progress",
+            "link": "https://www.goodreads.com/book/show/22822858-a-little-life?ac=1&from_search=true&qid=gnGjUnKO7P&rank=1",
+            "series": "",
+            "banner_path": "",
+            "icon_path": "",
+            "cover_path": "./assets/lists_for_life/reading/covers/Hanya_Yanagihara_-_A_Little_life.png"
+        },
+        {
+            "title": "The Humans",
+            "authors": [
+                "Matt Haig"
+            ],
+            "language": "English",
+            "status": "Done",
+            "link": "https://www.goodreads.com/book/show/16130537-the-humans?ref=nav_sb_ss_2_15",
+            "series": "",
+            "banner_path": "",
+            "icon_path": "",
+            "cover_path": "./assets/lists_for_life/reading\\covers\\Matt_Haig_-_The_humans.png"
+        }
+    ]
+}

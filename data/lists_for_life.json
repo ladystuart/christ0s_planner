@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "title": "Reading",
+      "image": "./assets/lists_for_life/books.png",
+      "text": "Books I want to read"
+    },
+    {
+      "title": "Wishlist",
+      "image": "./assets/lists_for_life/wishlist.png",
+      "text": "Things I want to buy"
+    },
+    {
+      "title": "Goals",
+      "image": "./assets/lists_for_life/goals.png",
+      "text": "Things I want to learn/do"
+    },
+    {
+      "title": "Courses",
+      "image": "./assets/lists_for_life/courses.png",
+      "text": "Courses to watch"
+    }
+    ]
+    }
