@@ -33,11 +33,3 @@ LicenseFile=LICENSE.txt
 [Registry]
 Root: HKCU; Subkey: "Software\Microsoft\Windows\CurrentVersion\Uninstall\Christ0$"; ValueType: string; ValueName: "DisplayName"; ValueData: "Christ0$"
 Root: HKCU; Subkey: "Software\Microsoft\Windows\CurrentVersion\Uninstall\Christ0$"; ValueType: string; ValueName: "DisplayIcon"; ValueData: "{app}\main.exe"
-
-[Code]
-procedure SetWritePermissions;
-begin
-  // Устанавливаем разрешения на запись в папке с данными (например, AppData)
-  SetAccessRights('{app}\data', 'Users', 'fullaccess');
-  SetAccessRights('{app}\config', 'Users', 'fullaccess');
-end;
