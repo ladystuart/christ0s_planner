@@ -51,7 +51,6 @@ Welcome window:
 
 Use buttons on left tabs to navigate through the program.
 
-Main tabs:
 
 ![Useful links tab](assets/screenshots/useful_links_tab.png)
 *Image 2. Useful links tab*
