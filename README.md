@@ -102,6 +102,6 @@ Main tabs:
 
 ## License
 This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
-Created by [Lady Stuart].
+Created by Lady Stuart.
 
 You may use, share, and modify the code under the terms of the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
