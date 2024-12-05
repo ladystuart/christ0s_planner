@@ -1,7 +1,7 @@
 # Christ0$
 
 Christ0$ is a Python application with a graphical user interface created using tkinter. 
-The main window of the application contains a sidebar with tabs for various functions, including useful links, annual plans, lists, a blog, and work-related tasks.
+The main window of the application contains a sidebar with tabs for various functions, including useful links, annual plans, lists and work-related tasks.
 Christ0$ is a planner program.
 
 ## Main Features
