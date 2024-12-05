@@ -40,6 +40,7 @@ Christ0$ is a planner program.
 │   └── tabs python files
 ├── main.py
 ├── .gitignore
+├── LICENCE.txt
 └── README.md
 ```
 
