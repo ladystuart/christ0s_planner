@@ -83,10 +83,7 @@ Main tabs:
    pip install pyinstaller
    
    # Dist folder
-   pyinstaller --onefile --windowed --icon=icon.ico \
-   --add-data "assets;assets" \
-   --add-data "src;src" \
-   --add-data "data;data" main.py
+   pyinstaller --onefile --windowed --icon=icon.ico --add-data "assets;assets" --add-data "src;src" --add-data "data;data" --add-data "config;config" main.py
    
    # Delete unwanted files
    # Copy assets, data and src folders to Dist
