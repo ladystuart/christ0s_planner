@@ -42,8 +42,6 @@ BANNER_PATHS = {
     'gratitude_diary': "./assets/yearly_plans/year/gratitude_diary_banner.png",
     'review': "./assets/yearly_plans/year/review_banner.png",
     'months': "./assets/yearly_plans/year/months_banner.png",
-    'blog': "./assets/blog/banner.png",
-    'ideas_and_plans': "./assets/blog/ideas_and_plans/banner.png",
     'work': "./assets/work/banner.png",
     'work_place': "./assets/work/banner.png"
 }
@@ -63,8 +61,6 @@ PAGES_NAMES = {
     'best_in_months': "Best in months",
     'months': "Months",
     'review': "Review",
-    'blog': "Blog",
-    'ideas_and_plans': "Ideas and plans",
     'work': "Work"
 }
 
@@ -84,8 +80,6 @@ ICONS_PATHS = {
     'best_in_months': "./assets/yearly_plans/year/best_in_months_icon.png",
     'months': "./assets/yearly_plans/year/months_icon.png",
     'review': "./assets/yearly_plans/year/review_icon.png",
-    'blog': "./assets/blog/icon.png",
-    'ideas_and_plans': "./assets/blog/ideas_and_plans/lightbulb_icon.png",
     'work': "./assets/work/icon.png",
     'work_place': "./assets/work/work_button_icon.png"
 }
@@ -345,47 +339,6 @@ MONTHLY_PLANS = {
     'reading_relief': "solid",
     'reading_highlightcolor': "#90EE90",
     'reading_label_font': ("Arial", 12)
-}
-
-BLOG = {
-    'idea_icon_path': "./assets/blog/idea_icon.png",
-    'email_label_bg': "#E0E0D8",
-    'email_label_font': ("Arial", 14),
-    'lightbulb_icon_path': "./assets/blog/ideas_and_plans/lightbulb_icon.png",
-    'ideas_and_plans_font': ("Arial", 12, "bold"),
-    'ideas_and_plans_button_relief': "solid",
-    'image_link': "./assets/blog/stones.png",
-    'quote_text': "\"On ne voit bien qu’avec le cœur. L’essentiel est invisible pour les yeux\".\n"
-                  "― Antoine de Saint-Exupéry, Le Petit Prince",
-    'quote_font': ("Arial", 12, "italic"),
-    'quote_wraplength': 300,
-    'stars_icon_path': "./assets/blog/stars_icon.png",
-    'window_font': ("Arial", 12),
-    'entry_font': ("Arial", 12),
-    'entry_color': "#FFFFFF",
-    'add_button_color': "#90EE90",
-    'buttons_font': ("Arial", 12),
-    'tip_icon': "./assets/blog/idea_icon.png",
-    'links_label_bg': "#E0E0D8",
-    'table_first_column_color': "#ccffcc",
-    'table_second_column_color': "#ccffff",
-    'table_third_column_color': "#ffccff",
-    'table_fourth_column_color': "#ffffcc",
-    'table_first_column_header': "Literature",
-    'table_second_column_header': "Drawing",
-    'table_third_column_header': "Poems",
-    'table_fourth_column_header': "Music",
-    'table_title_font': ("Arial", 12, "bold"),
-    'icon_height': 32,
-    'icon_width': 32,
-    'hearts_icon_path': "./assets/blog/hearts_icon.png"
-}
-
-IDEAS_AND_PLANS = {
-    'text_font': ("Arial", 12),
-    'image_path': "./assets/blog/ideas_and_plans/quote.png",
-    'image_width': 600,
-    'image_height': 400
 }
 
 WORK = {
