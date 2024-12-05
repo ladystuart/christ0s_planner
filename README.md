@@ -56,13 +56,13 @@ Main tabs:
 ![Useful links tab](assets/screenshots/useful_links_tab.png)
 *Image 2. Useful links tab*
 
-![Useful links tab](assets/screenshots/lists_for_life_tab.png)
+![Lists for life tab](assets/screenshots/lists_for_life_tab.png)
 *Image 3. #Lists_for_life tab*
 
-![Useful links tab](assets/screenshots/yearly_plans_tab.png)
+![Yearly plans tab](assets/screenshots/yearly_plans_tab.png)
 *Image 4. Yearly plans tab*
 
-![Useful links tab](assets/screenshots/work_tab.png)
+![Work tab](assets/screenshots/work_tab.png)
 *Image 5. Work tab*
 
 ## Installation
