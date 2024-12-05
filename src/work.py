@@ -244,6 +244,9 @@ class Work(tk.Frame):
                     if widget.cget("text") == button_name:
                         widget.config(text=new_button_name)
                         widget.config(command=lambda: self.button_action(new_button_name))
+                        # Update button command
+                        widget.bind("<Button-3>", lambda event: self.show_context_menu(event, new_button_name))
+
 
                 if button_name in self.work["buttons"]:
                     self.work["buttons"].remove(button_name)
