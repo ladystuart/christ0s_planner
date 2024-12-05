@@ -3,7 +3,7 @@ AppName=Christ0$
 AppVersion=1.0
 DefaultDirName={userappdata}\Christ0$
 DefaultGroupName=Christ0$
-OutputDir=C:\Users\ASUS\Desktop\Planner programm\Planner
+OutputDir=C:\Users\ASUS\Desktop\Planner program\Planner PUBLIC
 OutputBaseFilename=Christ0$_Setup_V1
 Compression=lzma2
 SolidCompression=yes
@@ -26,6 +26,9 @@ Source: "icon.ico"; DestDir: "{app}"; Flags: ignoreversion
 [Icons]
 Name: "{group}\Christ0$"; Filename: "{app}\main.exe"; IconFilename: "{app}\icon.ico"
 Name: "{userdesktop}\Christ0$"; Filename: "{app}\main.exe"; IconFilename: "{app}\icon.ico"
+
+[Setup]
+LicenseFile=LICENSE.txt
 
 [Registry]
 Root: HKCU; Subkey: "Software\Microsoft\Windows\CurrentVersion\Uninstall\Christ0$"; ValueType: string; ValueName: "DisplayName"; ValueData: "Christ0$"
