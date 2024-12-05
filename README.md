@@ -72,11 +72,11 @@ Main tabs:
    git clone https://gitlab.com/ladystuart/planner.git
    cd planner
    
-    # Navigate into the project directory
-    cd repository-name
+   # Navigate into the project directory
+   cd repository-name
    
-    # Install required packages
-    pip install -r requirements.txt
+   # Install required packages
+   pip install -r requirements.txt
 
 2. Create setup file:
    ```bash
