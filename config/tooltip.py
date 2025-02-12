@@ -12,16 +12,15 @@ class ToolTip:
 
     def show_tip(self, event=None):
         if self.tip_window is not None:
-            return  # Подсказка уже показана
+            return
 
-        x, y, _, _ = self.widget.bbox("insert")  # Получаем координаты виджета
-        x += self.widget.winfo_rootx() + 25  # Смещение для подсказки
-        y += self.widget.winfo_rooty() + 25  # Смещение для подсказки
+        x, y, _, _ = self.widget.bbox("insert")  
+        x += self.widget.winfo_rootx() + 25 
+        y += self.widget.winfo_rooty() + 25  
 
-        # Создаем окно подсказки
         self.tip_window = tk.Toplevel(self.widget)
-        self.tip_window.wm_overrideredirect(True)  # Без рамки
-        self.tip_window.wm_geometry(f"+{x}+{y}")  # Устанавливаем положение подсказки
+        self.tip_window.wm_overrideredirect(True) 
+        self.tip_window.wm_geometry(f"+{x}+{y}")  
 
         label = tk.Label(self.tip_window, text=self.text, background=TOOLTIP['bg_color'], borderwidth=1,
                          relief=TOOLTIP['relief'], font=TOOLTIP['font'])
