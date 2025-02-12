@@ -20,7 +20,7 @@ def add_image_to_button(button, image_path, width, height):
         button.config(image=photo)
         button.image = photo
     except Exception as e:
-        print(f"Ошибка загрузки изображения {image_path}: {e}")
+        print(f"Error image load {image_path}: {e}")
 
 
 class ListsForLife(tk.Frame):
