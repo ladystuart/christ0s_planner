@@ -24,8 +24,8 @@ Christ0$ is a planner program.
 │   │   ├── reading
 │   │   └── wishlist
 │   ├── work
-│   ├── yearly_plans
-│   │   └── year
+│   └── yearly_plans
+│       └── year
 ├── data
 │   ├── years
 │   └── json files
