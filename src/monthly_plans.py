@@ -145,16 +145,15 @@ def create_icon_label(frame, icon_path, icon_size=(20, 20), bg_color=INTERFACE['
              any value.
     """
     try:
-        icon_image_original = Image.open(icon_path)  # Путь к изображению иконки
-        icon_image = icon_image_original.resize(icon_size, Image.Resampling.LANCZOS)  # Изменяем размер иконки
+        icon_image_original = Image.open(icon_path) 
+        icon_image = icon_image_original.resize(icon_size, Image.Resampling.LANCZOS)  
         icon_photo = ImageTk.PhotoImage(icon_image)
 
-        # Создаем метку для иконки и добавляем её в заголовок
         icon_label = tk.Label(frame, image=icon_photo, bg=bg_color)
-        icon_label.image = icon_photo  # Привязываем изображение к объекту, чтобы избежать удаления
-        icon_label.pack(side="left")  # Иконка располагается слева от текста
+        icon_label.image = icon_photo  
+        icon_label.pack(side="left") 
     except Exception as e:
-        print(f"Error icon load {icon_path}: {e}")  # Обрабатываем ошибку загрузки иконки
+        print(f"Error icon load {icon_path}: {e}") 
 
 
 def create_text_label(frame, text, font=MONTHLY_PLANS['window_font'], bg_color=INTERFACE['bg_color']):
@@ -1165,11 +1164,11 @@ class MonthlyPlans(tk.Frame):
                                            cursor="hand2",
                                            bg=MONTHLY_PLANS['reading_label_bg'],
                                            height=10, width=20,
-                                           relief=MONTHLY_PLANS['reading_relief'],  # Стиль обводки
+                                           relief=MONTHLY_PLANS['reading_relief'],  
                                            highlightbackground=MONTHLY_PLANS['reading_highlightbackground'],
-                                           # Цвет обводки
+                                           
                                            highlightcolor=MONTHLY_PLANS['reading_highlightcolor'],
-                                           # Цвет обводки при фокусе
+                                          
                                            font=MONTHLY_PLANS['reading_label_font'],
                                            )
         self.reading_link_label.grid(row=2, column=0, pady=5, sticky="n")
@@ -1203,7 +1202,6 @@ class MonthlyPlans(tk.Frame):
 
         font_style = MONTHLY_PLANS['toplevel_windows_font']
 
-        # Добавляем метку и поле для ввода
         label = tk.Label(edit_window, text="Enter new reading link:", font=font_style)
         label.pack(pady=10)
 
