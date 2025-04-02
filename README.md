@@ -35,7 +35,7 @@ Christ0$ is a planner program.
 │   ├── tooltip.py
 │   └── settings.py
 ├── src
-│   └── tabs python files
+│   └── tabs .py files
 ├── main.py
 ├── .gitignore
 ├── LICENSE.txt
@@ -49,7 +49,7 @@ Welcome window:
 ![Welcome window](assets/screenshots/main_window.png)
 *Image 1. Welcome window*
 
-Use buttons on left tab to navigate through the program.
+Use buttons on the left tab to navigate through the program.
 
 Main tabs:
 
