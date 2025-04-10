@@ -32,6 +32,7 @@ Christ0$ is a planner program.
 ├── icon.ico
 ├── screenshots
 ├── .gitignore
+├── LICENSE.txt
 └── README.md
 ```
 
