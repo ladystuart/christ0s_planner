@@ -59,6 +59,7 @@ Once the ports are forwarded, the server should be accessible externally at your
 │       └── (image files)
 ├── .gitignore
 ├── docker-compose.yml
+├── LICENSE.txt
 └── README.md
 ```
 
