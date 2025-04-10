@@ -1,0 +1,46 @@
+services:
+# UPDATE your-db, your-user, your-password
+  db:
+    image: postgres:15
+    container_name: postgres_db
+    restart: always
+    environment:
+      POSTGRES_DB: your-db
+      POSTGRES_USER: your-user
+      POSTGRES_PASSWORD: your-password
+      UPLOAD_FOLDER: /uploads
+      POSTGRES_INITDB_ARGS: "--auth-host=scram-sha-256"
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
+    env_file:
+      - ./app/config/.env
+
+  backend:
+    build: ./app
+    container_name: app_server
+    restart: always
+    depends_on:
+      - db
+    environment:
+      UPLOAD_FOLDER: /uploads
+    env_file:
+      - ./app/config/.env
+    volumes:
+      - ./uploads:/uploads
+    ports:
+      - "8000:8000"
+
+# UPDATE your-user-folder
+  nginx:
+    image: nginx:latest
+    container_name: nginx_proxy
+    restart: always
+    depends_on:
+      - backend
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - /home/your-user-folder/server/ssl:/etc/nginx/ssl
+      - ./uploads:/uploads
+    ports:
+      - "8080:8080"
+      - "8443:8443"

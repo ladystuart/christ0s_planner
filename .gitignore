@@ -1,0 +1,9 @@
+db_data/
+
+/uploads/assets/lists_for_life/reading/covers/*
+!/uploads/assets/lists_for_life/reading/covers/
+!uploads/assets/lists_for_life/reading/covers/.gitkeep
+
+/uploads/assets/yearly_plans/year/*/
+
+*.ini

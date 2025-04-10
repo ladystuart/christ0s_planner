@@ -1,0 +1,6 @@
+fastapi==0.95.0
+uvicorn==0.22.0
+python-multipart==0.0.6
+asyncpg==0.26.0
+python-dotenv==0.21.0
+databases==0.6.2

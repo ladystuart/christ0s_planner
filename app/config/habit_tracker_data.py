@@ -1,0 +1,23 @@
+TASKS = [
+    ("Monday", "Reading"),
+    ("Monday", "Dreams"),
+    ("Monday", "Meditation"),
+    ("Tuesday", "Reading"),
+    ("Tuesday", "Sports"),
+    ("Tuesday", "Dreams"),
+    ("Tuesday", "Meditation"),
+    ("Wednesday", "Reading"),
+    ("Wednesday", "Dreams"),
+    ("Wednesday", "Meditation"),
+    ("Thursday", "Reading"),
+    ("Thursday", "Sports"),
+    ("Thursday", "Dreams"),
+    ("Thursday", "Meditation"),
+    ("Friday", "Reading"),
+    ("Friday", "Dreams"),
+    ("Friday", "Meditation"),
+    ("Saturday", "Dreams"),
+    ("Saturday", "Meditation"),
+    ("Saturday", "Sports"),
+    ("Sunday", "Rest :3")
+]
