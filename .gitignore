@@ -1,0 +1,39 @@
+# Virtual environment
+.venv/
+
+# IDE configurations
+.idea/
+
+# Cached files
+__pycache__/ 
+
+# Tutorial files
+Ch8/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Other temporary files
+workspace.xml
+
+# Test files
+src/test.py
+
+# PyInstaller build files
+build/
+dist/
+
+# PyInstaller configuration file
+main.spec
+
+# Installer file
+*.exe
+
+test.py
+
+server_test.py

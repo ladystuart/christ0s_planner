@@ -1,0 +1,212 @@
+{
+  "search": [
+    {
+      "title": "Search engines",
+      "description": "Perhaps the most important thing a person needs in the modern world. \nHere, foreign search engines will be presented \nto make it easier to search in the foreign-language segment of the internet.",
+      "icon": "useful_links/search_icon.png",
+      "items": [
+        {
+          "name": "1. Google Chrome",
+          "link": "https://www.google.com/",
+          "link_text": "https://www.google.com/",
+          "image": "useful_links/google.png",
+          "text": "I think there is no need to introduce \nthe well-known Google Chrome. \nThe link directs \nto the American Google."
+        },
+        {
+          "name": "2. Yahoo",
+          "link": "https://fr.yahoo.com/",
+          "link_text": "https://fr.yahoo.com/",
+          "image": "useful_links/yahoo.png",
+          "text": "Let's move on to the homeland \nof fromage and croissants. Yahoo - \na French search engine. \nAlthough the French domain \nof Google exists, Yahoo is still \nmore popular in \nFrance."
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "title": "Downloading books",
+      "description": "Books are one of the main sources of information, but finding them\nin free access is not so easy.",
+      "icon": "useful_links/book_icon.png",
+      "items": [
+        {
+          "name": "1. Z-Library",
+          "link": "http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/",
+          "link_text": "https://z_library.onion/",
+          "image": "useful_links/z-lib.png",
+          "height": 70,
+          "width": 250,
+          "text": "A huge library with foreign\nliterature.\nYou can find books in almost\nany language. Download limit of 10 per day\nfor registered users.\nThere is a Telegram bot that allows\nmore downloads.\nAccess is possible via\nTor as well as mirrors."
+        },
+        {
+          "name": "2. Flibusta",
+          "link": "http://flibustaongezhld6dibs2dps6vm4nvqg2kp7vgowbu76tzopgnhazqd.onion/",
+          "link_text": "https://flibusta.onion/",
+          "image": "useful_links/flibusta.png",
+          "height": 150,
+          "width": 200,
+          "text": "A library of Russian literature.\nAccess is possible via Tor."
+        },
+        {
+          "name": "3. Twirpx",
+          "link": "https://www.twirpx.com/",
+          "link_text": "https://www.twirpx.com/",
+          "image": "useful_links/twirpx.png",
+          "height": 80,
+          "width": 80,
+          "text": "A library mainly with educational/\nscientific literature.\nAccess via VPN.\nTo download, a symbolic donation\nis required."
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "title": "Downloading courses",
+      "description": "Here are websites with leaked courses (and more).",
+      "icon": "useful_links/courses_icon.png",
+      "ps": "P.S. I will add websites with tutorials I regularly use.",
+      "items": [
+        {
+          "name": "1. Sharewood",
+          "link": "https://s2.sharewood.me/",
+          "link_text": "https://s2.sharewood.me/",
+          "image": "useful_links/sharewood.png",
+          "height": 100,
+          "width": 100,
+          "text": "Sherwood – a site with courses,\navailable after\nregistration and payment for\naccess (~500 rubles).\nThere is a Telegram channel with\nshort training\nvideos.\nAccess via VPN and\nmirrors."
+        },
+        {
+          "name": "2. RuTracker",
+          "link": "https://rutracker.org/",
+          "link_text": "https://rutracker.org/",
+          "image": "useful_links/rutracker.png",
+          "height": 100,
+          "width": 200,
+          "text": "RuTracker. I mainly use it\nfor downloading movies in\nthe original or software,\nbut you can also find\ncourses there.\nAccess is only through \nVPN."
+        },
+        {
+          "name": "3. YouTube",
+          "link": "https://www.youtube.com/",
+          "link_text": "https://www.youtube.com/",
+          "image": "useful_links/youtube.png",
+          "height": 60,
+          "width": 200,
+          "text": "Absolutely indispensable\nthing.\nThere is always a sea of\ninformation there.\nThe main thing is not to drown in\nthe waves of content :D\n"
+        },
+        {
+          "link": "https://www.chess.com/",
+          "link_text": "https://www.chess.com/",
+          "image": "useful_links/chess.png",
+          "height": 125,
+          "width": 200,
+          "text": "A site about chess.\nThere are lessons, but only one free per\nweek.\nRecently, access is only via VPN."
+        },
+        {
+          "link": "https://www.duolingo.com/",
+          "link_text": "https://www.duolingo.com/",
+          "image": "useful_links/duolingo.png",
+          "height": 200,
+          "width": 200,
+          "text": "The app is more popular than the site,\nbut the latter is also quite convenient.\nIt focuses on language learning."
+        }
+      ]
+    }
+  ],
+  "forums": [
+    {
+      "title": "Forums",
+      "description": "Here are links to discussion places. Sometimes you can come across a lot of interesting things \nwhile surfing forums.",
+      "icon": "useful_links/forums_icon.png",
+      "items": [
+        {
+          "name": "Dreamhackers",
+          "link": "https://dreamhackers.eu/",
+          "text": "About dreams and everything related to them"
+        },
+        {
+          "name": "InFrance",
+          "link": "https://www.infrance.su/forum/index.php",
+          "text": "About France"
+        },
+        {
+          "name": "Cyberforum",
+          "link": "https://www.cyberforum.ru/",
+          "text": "For system administrators and programmers"
+        },
+        {
+          "name": "StackOverflow",
+          "link": "https://stackoverflow.com/",
+          "text": "The English version of the forum for programmers"
+        },
+        {
+          "name": "Help Math Planet",
+          "link": "https://mathhelpplanet.com/index.php",
+          "text": "Discussion and solving math problems"
+        },
+        {
+          "name": "SciTecLibrary",
+          "link": "http://www.sciteclibrary.ru/cgibin/yabb2/YaBB.pl",
+          "text": "A scientific-technical forum about physics"
+        },
+        {
+          "name": "Physics",
+          "link": "https://physics.stackexchange.com/",
+          "text": "English forum about physics"
+        },
+        {
+          "name": "Mathematics",
+          "link": "https://math.stackexchange.com/",
+          "text": "English forum about mathematics"
+        },
+        {
+          "name": "Stackexchange",
+          "link": "https://stackexchange.com/sites",
+          "text": "Contains links to various forums"
+        }
+      ]
+    }
+  ],
+  "chatgpt": [
+    {
+      "title": "ChatGPT",
+      "description": "I will separately highlight the well-known ChatGPT neural network. Very convenient \nif a quick answer to a question is needed, it saves you from the need \nfor a long search and information systematization. It can also help in language learning, \nand in general in learning as a whole.",
+      "icon": "useful_links/gpt_icon.png",
+      "link": "https://chat.openai.com/",
+      "link_text": "https://chat.openai.com/",
+      "image": "useful_links/chatgpt.png",
+      "height": 350,
+      "width": 500,
+      "text": "At the moment, access is only possible via VPN."
+    }
+  ],
+  "additional": [
+    {
+      "title": "Additional Information",
+      "icon": "useful_links/info_icon.png",
+      "items": [
+        {
+          "text": "To access some websites, it is necessary to use Tor.\nYou can download it from the link below.",
+          "link": "https://tor-browser.softonic.ru/",
+          "link_text": "https://tor-browser/",
+          "image": "useful_links/tor.png",
+          "height": 100,
+          "width": 100
+        },
+        {
+          "link": "https://chromewebstore.google.com/detail/%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B9-vpn-%D0%BF%D1%80%D0%BE%D0%BA%D1%81%D0%B8-%D0%B8-%D0%B1/hipncndjamdcmphkgngojegjblibadbe?hl=ru",
+          "link_text": "https://planet-vpn/",
+          "text": "Sometimes, you need to use VPN to access specific materials.\nMy personal choice is Planet VPN.\nIt can be installed as a browser extension or a mobile application.",
+          "image": "useful_links/planetvpn.png",
+          "height": 100,
+          "width": 100
+        }
+      ]
+    }
+  ],
+  "link": [
+    {
+      "title": "Link",
+      "link": "https://docs.google.com/presentation/d/1LoJsZ6myFhTlGAUD3CAWcDwNtpUYwFzi/edit?pli=1#slide=id.p4",
+      "link_text": "Google Docs"
+    }
+  ]
+}

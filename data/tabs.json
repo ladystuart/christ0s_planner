@@ -1,0 +1,24 @@
+{
+    "tabs": [
+        {
+            "name": "Useful Links",
+            "icon": "useful_links/icon.png",
+            "content": "useful_links"
+        },
+        {
+            "name": "#Lists_for_life",
+            "icon": "lists_for_life/icon.png",
+            "content": "lists_for_life"
+        },
+        {
+            "name": "Yearly plans",
+            "icon": "yearly_plans/icon.png",
+            "content": "yearly_plans"
+        },
+        {
+            "name": "Work",
+            "icon": "work/icon.png",
+            "content": "work"
+        }
+    ]
+}
