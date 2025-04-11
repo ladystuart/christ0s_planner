@@ -1196,8 +1196,9 @@ class Reading(tk.Frame):
         Returns:
             None
         """
-        existing_titles = {book["title"].lower() for book in self.tasks}
-        if entries["title"].lower() in existing_titles:
+        existing_titles = {book["title"] for book in self.tasks if book["title"] != old_title}
+
+        if entries["title"] in existing_titles:
             messagebox.showwarning("Warning", f'A book with the title "{entries["title"]}" already exists!')
             edit_window.lift()
             return
