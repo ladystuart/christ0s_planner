@@ -267,25 +267,6 @@ CREATE TABLE task_popups (
     popup_message TEXT
 );
 
-CREATE TABLE blog_current_projects (
-    id SERIAL PRIMARY KEY,
-    prose TEXT NOT NULL,
-    drawing TEXT NOT NULL,
-    poems TEXT NOT NULL,
-    music TEXT NOT NULL
-);
-
-CREATE TABLE blog_to_do (
-    id SERIAL PRIMARY KEY,
-    task VARCHAR(255) NOT NULL,
-    completed BOOLEAN NOT NULL DEFAULT FALSE
-);
-
-CREATE TABLE ideas_and_plans (
-    id SERIAL PRIMARY KEY,
-    content TEXT
-);
-
 CREATE TABLE work (
     id SERIAL PRIMARY KEY, 
     work_name VARCHAR(255) NOT NULL 

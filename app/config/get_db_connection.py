@@ -52,9 +52,6 @@ async def create_tables():
         - wishlist: Stores books or items on the user's wishlist.
         - goals: Stores the user's goals with completion status.
         - courses: Stores courses with completion status.
-        - blog_current_projects: Stores details about ongoing projects.
-        - blog_to_do: Stores tasks for blog projects.
-        - ideas_and_plans: Stores ideas or plans for future projects.
         - work: Stores work-related tasks.
         - work_place: Stores work notes related to specific tasks.
 
@@ -229,31 +226,6 @@ async def create_tables():
        id SERIAL PRIMARY KEY,
        title VARCHAR(225) NOT NULL,
        completed BOOLEAN NOT NULL DEFAULT FALSE
-    );
-    ''')
-
-    await conn.execute(''' 
-    CREATE TABLE IF NOT EXISTS blog_current_projects (
-       id SERIAL PRIMARY KEY,
-       prose TEXT NOT NULL,
-       drawing TEXT NOT NULL,
-       poems TEXT NOT NULL,
-       music TEXT NOT NULL
-    );
-    ''')
-
-    await conn.execute(''' 
-    CREATE TABLE IF NOT EXISTS blog_to_do (
-       id SERIAL PRIMARY KEY,
-       task VARCHAR(255) NOT NULL,
-       completed BOOLEAN NOT NULL DEFAULT FALSE
-    );
-    ''')
-
-    await conn.execute(''' 
-    CREATE TABLE IF NOT EXISTS ideas_and_plans (
-       id SERIAL PRIMARY KEY,
-       content TEXT
     );
     ''')
 
