@@ -1,7 +1,7 @@
 {
     "tabs": [
         {
-            "name": "Useful Links",
+            "name": "Useful links",
             "icon": "./assets/useful_links/icon.png",
             "content": "useful_links"
         },
