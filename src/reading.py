@@ -324,7 +324,7 @@ class Reading(tk.Frame):
         language_options = [''] + sorted(set(task['language'] for task in self.tasks))
         language_filter_menu = tk.OptionMenu(self.top_frame, self.language_filter_var,
                                              *language_options,
-                                             command=self.populate_columns())
+                                             command=self.populate_columns)
         language_filter_menu.config(font=READING['filter_font'])
         language_filter_menu.pack(side=tk.LEFT, padx=5)
         language_filter_menu.config(cursor="hand2")
@@ -443,11 +443,16 @@ class Reading(tk.Frame):
         """
         self.main_window.bind_all("<MouseWheel>", self.main_window.on_mouse_wheel)  # Restore the scroll handler
 
-    def populate_columns(self):
+    def populate_columns(self, *args):
         """
-        Populate columns with books
+        Populate columns with books.
 
-        :return: None
+        Args:
+            *args: Optional arguments passed automatically when used as an event handler
+                  (e.g., from OptionMenu).
+
+        Returns: None
+
         """
         not_started_row = 1
         in_progress_row = 1
