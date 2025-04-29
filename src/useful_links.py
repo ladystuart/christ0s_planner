@@ -133,7 +133,7 @@ class UsefulLinks(tk.Frame):
         table_frame.pack(pady=5)
 
         # Add headers
-        header = ["Название", "Описание", "Ссылка"]
+        header = ["Title", "Description", "Link"]
         for i, text in enumerate(header):
             label = tk.Label(table_frame, text=text, bg=USEFUL_LINKS['table_head_bg_color'],
                              font=USEFUL_LINKS['table_font_bold'], padx=10)

@@ -261,9 +261,9 @@ def add_image_to_grid(parent, image_path, row, column, height, width, rowspan, c
         photo = ImageTk.PhotoImage(image)
 
         image_label = tk.Label(parent, image=photo)
-        image_label.image = photo  # Сохраняем ссылку на изображение
+        image_label.image = photo  
         image_label.grid(row=row, column=column, rowspan=rowspan, columnspan=columnspan, padx=10,
-                         pady=10)  # Используем grid для размещения изображения
+                         pady=10)
 
     except Exception as e:
         print(f"Error image load {image_path}: {e}")

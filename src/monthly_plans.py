@@ -145,16 +145,15 @@ def create_icon_label(frame, icon_path, icon_size=(20, 20), bg_color=INTERFACE['
              any value.
     """
     try:
-        icon_image_original = Image.open(icon_path)  # Путь к изображению иконки
-        icon_image = icon_image_original.resize(icon_size, Image.Resampling.LANCZOS)  # Изменяем размер иконки
+        icon_image_original = Image.open(icon_path) 
+        icon_image = icon_image_original.resize(icon_size, Image.Resampling.LANCZOS)  
         icon_photo = ImageTk.PhotoImage(icon_image)
 
-        # Создаем метку для иконки и добавляем её в заголовок
         icon_label = tk.Label(frame, image=icon_photo, bg=bg_color)
-        icon_label.image = icon_photo  # Привязываем изображение к объекту, чтобы избежать удаления
-        icon_label.pack(side="left")  # Иконка располагается слева от текста
+        icon_label.image = icon_photo  
+        icon_label.pack(side="left") 
     except Exception as e:
-        print(f"Error icon load {icon_path}: {e}")  # Обрабатываем ошибку загрузки иконки
+        print(f"Error icon load {icon_path}: {e}") 
 
 
 def create_text_label(frame, text, font=MONTHLY_PLANS['window_font'], bg_color=INTERFACE['bg_color']):
@@ -298,32 +297,6 @@ class MonthlyPlans(tk.Frame):
         add_separator(parent=self, color=INTERFACE['separator'])
 
         self.add_month(month_icon_path)
-
-    def on_date_click(self, date):
-        """
-        Handles the event when a user clicks on a specific date. It updates the
-        color associated with the selected date in the tasks data and saves the
-        changes to the JSON file.
-
-        :param date: A string representing the selected date in the format "day.month.year".
-                     Example: "25.12.2024" for December 25th, 2024.
-        :return: None
-        """
-        day, month, year = date.split(".")
-        month_name = cal.month_name[int(month)]
-
-        if "months" not in self.tasks:
-            self.tasks["months"] = {}
-        if month_name not in self.tasks["months"]:
-            self.tasks["months"][month_name] = {"plans": [], "diary": {}, "colour": {}}
-
-        if "colour" not in self.tasks["months"][month_name]:
-            self.tasks["months"][month_name]["colour"] = {}
-
-        selected_color = MONTHLY_PLANS['selected_date_color']
-        self.tasks["months"][month_name]["colour"][date] = selected_color
-
-        self.save_tasks_to_json()
 
     def initialize_frame_colors(self, date, frame):
         """
@@ -1165,11 +1138,11 @@ class MonthlyPlans(tk.Frame):
                                            cursor="hand2",
                                            bg=MONTHLY_PLANS['reading_label_bg'],
                                            height=10, width=20,
-                                           relief=MONTHLY_PLANS['reading_relief'],  # Стиль обводки
+                                           relief=MONTHLY_PLANS['reading_relief'],  
                                            highlightbackground=MONTHLY_PLANS['reading_highlightbackground'],
-                                           # Цвет обводки
+                                           
                                            highlightcolor=MONTHLY_PLANS['reading_highlightcolor'],
-                                           # Цвет обводки при фокусе
+                                          
                                            font=MONTHLY_PLANS['reading_label_font'],
                                            )
         self.reading_link_label.grid(row=2, column=0, pady=5, sticky="n")
@@ -1203,7 +1176,6 @@ class MonthlyPlans(tk.Frame):
 
         font_style = MONTHLY_PLANS['toplevel_windows_font']
 
-        # Добавляем метку и поле для ввода
         label = tk.Label(edit_window, text="Enter new reading link:", font=font_style)
         label.pack(pady=10)
 

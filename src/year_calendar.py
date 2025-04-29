@@ -421,7 +421,7 @@ class Calendar(tk.Frame):
         :return: None
         """
         self.main_window.bind_events()
-        clear_canvas(self.parent)  # Очищаем холст
+        clear_canvas(self.parent) 
 
         from src.year import Year
         year_frame = Year(self.parent, json_file=f"data/years/{year}.json", main_window=self.main_window, year=year)

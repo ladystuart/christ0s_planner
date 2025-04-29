@@ -631,7 +631,7 @@ class Reading(tk.Frame):
             authors_label_default = tk.Label(books_info_frame, text="Author", bg=default_bg_color, anchor="w",
                                              font=normal_font)
             authors_label_default.grid(row=1, column=0, padx=10, sticky="w")
-            authors_str = ", ".join(task["authors"])  # Объединяем авторов в строку
+            authors_str = ", ".join(task["authors"]) 
             authors_label = tk.Label(books_info_frame, text=authors_str, bg=INTERFACE['bg_color'], anchor="w",
                                      font=normal_font)
             authors_label.grid(row=1, column=1, padx=10, sticky="w")
@@ -651,7 +651,7 @@ class Reading(tk.Frame):
                                             font=normal_font)
             status_label_default.grid(row=3, column=0, padx=10, sticky="w")
 
-            status_color = READING['default_label_color']  # Цвет по умолчанию
+            status_color = READING['default_label_color']
             if task["status"] == "Not started":
                 status_color = READING['not_started_label_color']
             elif task["status"] == "In progress":

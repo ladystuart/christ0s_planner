@@ -181,9 +181,9 @@ class GratitudeDiary(tk.Frame):
         edit_window = tk.Toplevel(self)
         edit_window.withdraw()
         edit_window.title(f"Edit Entry - {month} {day}")
-        # Добавляем иконку на окно (для Windows)
+        
         center_window_on_parent(self.main_window, edit_window, 400, 100)
-        edit_window.iconbitmap(APP['icon_path'])  # Замените на путь к вашему .ico файлу
+        edit_window.iconbitmap(APP['icon_path']) 
 
         text_editor = tk.Text(edit_window, width=40, height=1, font=GRATITUDE_DIARY['toplevel_windows_font'])
         text_editor.insert(tk.END, day_text)

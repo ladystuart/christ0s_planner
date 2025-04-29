@@ -4,6 +4,12 @@ Christ0$ is a Python application with a graphical user interface created using t
 The main window of the application contains a sidebar with tabs for various functions, including useful links, annual plans, lists and work-related tasks.
 Christ0$ is a planner program.
 
+## Branches
+
+- **main**: This is the main branch containing the core application without the server (local version).
+- **frontend**: The client-side application (frontend).
+- **backend**: The server-side application that powers the backend of the app.
+
 ## Main Features
 
 - **Main window** with a sidebar displaying tabs for different categories
@@ -24,8 +30,8 @@ Christ0$ is a planner program.
 │   │   ├── reading
 │   │   └── wishlist
 │   ├── work
-│   ├── yearly_plans
-│   │   └── year
+│   └── yearly_plans
+│       └── year
 ├── data
 │   ├── years
 │   └── json files
@@ -35,7 +41,7 @@ Christ0$ is a planner program.
 │   ├── tooltip.py
 │   └── settings.py
 ├── src
-│   └── tabs python files
+│   └── tabs .py files
 ├── main.py
 ├── .gitignore
 ├── LICENSE.txt
@@ -49,7 +55,7 @@ Welcome window:
 ![Welcome window](assets/screenshots/main_window.png)
 *Image 1. Welcome window*
 
-Use buttons on left tab to navigate through the program.
+Use buttons on the left tab to navigate through the program.
 
 Main tabs:
 
