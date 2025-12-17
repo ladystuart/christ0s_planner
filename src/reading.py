@@ -466,26 +466,28 @@ class Reading(tk.Frame):
         # Get filtered books
         filtered_tasks = self.filter_tasks()
 
-        # Get number of books
-        not_started_tasks = filtered_tasks[:self.not_started_loaded]
-        in_progress_tasks = filtered_tasks[:self.in_progress_loaded]
-        done_tasks = filtered_tasks[:self.done_loaded]
+        # Separate tasks by status
+        not_started_tasks = [task for task in filtered_tasks if task['status'] == 'Not started']
+        in_progress_tasks = [task for task in filtered_tasks if task['status'] == 'In progress']
+        done_tasks = [task for task in filtered_tasks if task['status'] == 'Done']
+
+        # Get limited number of books for each status
+        limited_not_started = not_started_tasks[:self.not_started_loaded]
+        limited_in_progress = in_progress_tasks[:self.in_progress_loaded]
+        limited_done = done_tasks[:self.done_loaded]
 
         # Add books to columns
-        for task in not_started_tasks:
-            if task['status'] == 'Not started':
-                self.create_book_button(task, self.columns_frame, not_started_row, 0)
-                not_started_row += 1
+        for task in limited_not_started:
+            self.create_book_button(task, self.columns_frame, not_started_row, 0)
+            not_started_row += 1
 
-        for task in in_progress_tasks:
-            if task['status'] == 'In progress':
-                self.create_book_button(task, self.columns_frame, in_progress_row, 1)
-                in_progress_row += 1
+        for task in limited_in_progress:
+            self.create_book_button(task, self.columns_frame, in_progress_row, 1)
+            in_progress_row += 1
 
-        for task in done_tasks:
-            if task['status'] == 'Done':
-                self.create_book_button(task, self.columns_frame, done_row, 2)
-                done_row += 1
+        for task in limited_done:
+            self.create_book_button(task, self.columns_frame, done_row, 2)
+            done_row += 1
 
     def filter_tasks(self):
         """
